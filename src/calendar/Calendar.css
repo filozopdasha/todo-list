@@ -1,0 +1,147 @@
+
+.route-calendar{
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0da;
+    margin: 0;
+    padding: 0;
+}
+.route-{
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0da;
+    margin-top: 100px;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #e0e0da;
+    padding: 20px;
+    color: rgba(2, 2, 9, 0.8);
+}
+.month-and-year{
+    font-weight:bolder;
+}
+
+.Calendar-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.Calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top:55px;
+}
+
+.arrow{
+    background-color: #e0e0da;
+    color: rgba(2, 2, 9, 0.8);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+.Calendar-table {
+    width: 100%;
+    margin-top:100px;
+    border-collapse: separate;
+}
+
+.Calendar-table th,
+.Calendar-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.Calendar-table th {
+    color: rgba(131, 133, 128, 0.8);
+    border-bottom: 1px solid rgba(131, 133, 128, 0.8);
+    transition: border-bottom-width 0.3s, font-size 0.3s;
+}
+
+.Calendar-table th:hover {
+    border-bottom-width: 3px;
+    font-size: 1.2em;
+}
+
+
+.Calendar-table td {
+    background-color: #e0e0da;
+    color:black;
+    border-radius:5px;
+
+}
+
+.date-button{
+    border:none;
+    background-color: #e0e0da;
+    font-weight: bolder;
+    padding:20px;
+}
+
+.date-button:hover,
+.arrow:hover {
+    background-color: #bdbdb7;
+    border-radius: 10px;
+    transition: background-color 0.3s, border-radius 0.3s, font-size 0.3s;
+}
+
+.date-button:hover, .arrow:hover {
+    font-size: 1.2em;
+}
+
+
+.has-task,
+.all-tasks-checked {
+    position: relative;
+}
+
+.has-task::after,
+.all-tasks-checked::after {
+    content: '';
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.has-task::after {
+    background-color: #c26f2b;
+}
+
+.all-tasks-checked::after {
+    background-color: #589a36;
+}
+
+
+.logout-button {
+    color: rgb(86, 83, 83);
+    border: 2px solid  #e0e0da;
+    transition: border-color 0.3s;
+    outline: none;
+    border-radius: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    background-color:  #e0e0da;
+    width: 150px;
+    right:100px;
+}
+
+
+
+
+
