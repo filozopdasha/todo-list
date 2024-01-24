@@ -81,7 +81,7 @@ function Signup() {
                         {errors.password && <span className='text-danger'>{errors.password}</span>}
                     </div>
                     <button type='submit' className='login-button'>Signup</button>
-                    <Link to='/' className='create-account-button'>I already have an account</Link>
+                    <Link to='/' className='create-account-button have-account'>I already have an account</Link>
                 </form>
 
             </div>
